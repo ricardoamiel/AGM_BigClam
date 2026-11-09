@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="580" viewBox="0 0 1240 580">
+<rect width="1240" height="580" fill="#FFFFFF"/>
+<defs>
+  <marker id="fa" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#1F4E79"/></marker>
+  <marker id="fo" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#C55A11"/></marker>
+  <marker id="fg" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#808080"/></marker>
+  <marker id="fv" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#548235"/></marker>
+</defs>
+<line x1="110.0" y1="420.0" x2="1160.0" y2="420.0" stroke="#404040" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="110.0" y1="30.0" x2="110.0" y2="420.0" stroke="#404040" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="105.0" y1="420.0" x2="110.0" y2="420.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110.0" y1="420.0" x2="1160.0" y2="420.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="425.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">0.0</text>
+<line x1="105.0" y1="322.5" x2="110.0" y2="322.5" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110.0" y1="322.5" x2="1160.0" y2="322.5" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="327.5" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">0.2</text>
+<line x1="105.0" y1="225.0" x2="110.0" y2="225.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110.0" y1="225.0" x2="1160.0" y2="225.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="230.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">0.4</text>
+<line x1="105.0" y1="127.5" x2="110.0" y2="127.5" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110.0" y1="127.5" x2="1160.0" y2="127.5" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="132.5" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">0.6</text>
+<line x1="105.0" y1="30.0" x2="110.0" y2="30.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110.0" y1="30.0" x2="1160.0" y2="30.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="35.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">0.8</text>
+<text x="48" y="225.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#404040" text-anchor="middle" transform="rotate(-90 48 225.0)">F1 promedio contra los círculos</text>
+<rect x="127.1" y="126.6" width="19.8" height="293.4" rx="0" fill="#1F4E79" stroke="none" stroke-width="0"/>
+<rect x="149.9" y="94.1" width="19.8" height="325.9" rx="0" fill="#7030A0" stroke="none" stroke-width="0"/>
+<rect x="172.8" y="129.5" width="19.8" height="290.5" rx="0" fill="#B4A7D6" stroke="none" stroke-width="0"/>
+<rect x="195.6" y="65.0" width="19.8" height="355.0" rx="0" fill="#C00000" stroke="none" stroke-width="0"/>
+<rect x="218.4" y="170.8" width="19.8" height="249.2" rx="0" fill="#00A3A3" stroke="none" stroke-width="0"/>
+<rect x="241.2" y="66.5" width="19.8" height="353.5" rx="0" fill="#548235" stroke="none" stroke-width="0"/>
+<rect x="264.1" y="128.7" width="19.8" height="291.3" rx="0" fill="#A5A5A5" stroke="none" stroke-width="0"/>
+<rect x="286.9" y="104.4" width="19.8" height="315.6" rx="0" fill="#BF9000" stroke="none" stroke-width="0"/>
+<rect x="309.7" y="140.0" width="19.8" height="280.0" rx="0" fill="#C55A11" stroke="none" stroke-width="0"/>
+<rect x="332.6" y="66.5" width="19.8" height="353.5" rx="0" fill="#808080" stroke="none" stroke-width="0"/>
+<text x="241.2" y="448.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#404040" text-anchor="middle">ego 414</text>
+<text x="241.2" y="468.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#808080" text-anchor="middle">148 nodos, 7 círculos</text>
+<rect x="389.6" y="241.5" width="19.8" height="178.5" rx="0" fill="#1F4E79" stroke="none" stroke-width="0"/>
+<rect x="412.4" y="135.1" width="19.8" height="284.9" rx="0" fill="#7030A0" stroke="none" stroke-width="0"/>
+<rect x="435.3" y="164.0" width="19.8" height="256.0" rx="0" fill="#B4A7D6" stroke="none" stroke-width="0"/>
+<rect x="458.1" y="150.4" width="19.8" height="269.6" rx="0" fill="#C00000" stroke="none" stroke-width="0"/>
+<rect x="480.9" y="217.7" width="19.8" height="202.3" rx="0" fill="#00A3A3" stroke="none" stroke-width="0"/>
+<rect x="503.8" y="154.8" width="19.8" height="265.2" rx="0" fill="#548235" stroke="none" stroke-width="0"/>
+<rect x="526.6" y="150.5" width="19.8" height="269.5" rx="0" fill="#A5A5A5" stroke="none" stroke-width="0"/>
+<rect x="549.4" y="178.7" width="19.8" height="241.3" rx="0" fill="#BF9000" stroke="none" stroke-width="0"/>
+<rect x="572.2" y="144.1" width="19.8" height="275.9" rx="0" fill="#C55A11" stroke="none" stroke-width="0"/>
+<rect x="595.1" y="150.0" width="19.8" height="270.0" rx="0" fill="#808080" stroke="none" stroke-width="0"/>
+<text x="503.8" y="448.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#404040" text-anchor="middle">ego 686</text>
+<text x="503.8" y="468.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#808080" text-anchor="middle">168 nodos, 14 círculos</text>
+<rect x="652.1" y="173.8" width="19.8" height="246.2" rx="0" fill="#1F4E79" stroke="none" stroke-width="0"/>
+<rect x="674.9" y="107.0" width="19.8" height="313.0" rx="0" fill="#7030A0" stroke="none" stroke-width="0"/>
+<rect x="697.8" y="144.1" width="19.8" height="275.9" rx="0" fill="#B4A7D6" stroke="none" stroke-width="0"/>
+<rect x="720.6" y="173.1" width="19.8" height="246.9" rx="0" fill="#C00000" stroke="none" stroke-width="0"/>
+<rect x="743.4" y="224.6" width="19.8" height="195.4" rx="0" fill="#00A3A3" stroke="none" stroke-width="0"/>
+<rect x="766.2" y="137.1" width="19.8" height="282.9" rx="0" fill="#548235" stroke="none" stroke-width="0"/>
+<rect x="789.1" y="188.9" width="19.8" height="231.1" rx="0" fill="#A5A5A5" stroke="none" stroke-width="0"/>
+<rect x="811.9" y="151.9" width="19.8" height="268.1" rx="0" fill="#BF9000" stroke="none" stroke-width="0"/>
+<rect x="834.7" y="167.6" width="19.8" height="252.4" rx="0" fill="#C55A11" stroke="none" stroke-width="0"/>
+<rect x="857.6" y="194.9" width="19.8" height="225.1" rx="0" fill="#808080" stroke="none" stroke-width="0"/>
+<text x="766.2" y="448.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#404040" text-anchor="middle">ego 348</text>
+<text x="766.2" y="468.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#808080" text-anchor="middle">224 nodos, 14 círculos</text>
+<rect x="914.6" y="286.0" width="19.8" height="134.0" rx="0" fill="#1F4E79" stroke="none" stroke-width="0"/>
+<rect x="937.4" y="254.8" width="19.8" height="165.2" rx="0" fill="#7030A0" stroke="none" stroke-width="0"/>
+<rect x="960.3" y="262.2" width="19.8" height="157.8" rx="0" fill="#B4A7D6" stroke="none" stroke-width="0"/>
+<rect x="983.1" y="269.1" width="19.8" height="150.9" rx="0" fill="#C00000" stroke="none" stroke-width="0"/>
+<rect x="1005.9" y="273.9" width="19.8" height="146.1" rx="0" fill="#00A3A3" stroke="none" stroke-width="0"/>
+<rect x="1028.8" y="261.0" width="19.8" height="159.0" rx="0" fill="#548235" stroke="none" stroke-width="0"/>
+<rect x="1051.6" y="278.6" width="19.8" height="141.4" rx="0" fill="#A5A5A5" stroke="none" stroke-width="0"/>
+<rect x="1074.4" y="281.0" width="19.8" height="139.0" rx="0" fill="#BF9000" stroke="none" stroke-width="0"/>
+<rect x="1097.2" y="280.7" width="19.8" height="139.3" rx="0" fill="#C55A11" stroke="none" stroke-width="0"/>
+<rect x="1120.1" y="290.0" width="19.8" height="130.0" rx="0" fill="#808080" stroke="none" stroke-width="0"/>
+<text x="1028.8" y="448.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#404040" text-anchor="middle">ego 0</text>
+<text x="1028.8" y="468.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#808080" text-anchor="middle">324 nodos, 15 círculos</text>
+<rect x="110.0" y="500.0" width="18.0" height="18.0" rx="0" fill="#1F4E79" stroke="none" stroke-width="0"/>
+<text x="135.0" y="515.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="start">BigCLAM</text>
+<rect x="325.0" y="500.0" width="18.0" height="18.0" rx="0" fill="#7030A0" stroke="none" stroke-width="0"/>
+<text x="350.0" y="515.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="start">NOCD</text>
+<rect x="540.0" y="500.0" width="18.0" height="18.0" rx="0" fill="#B4A7D6" stroke="none" stroke-width="0"/>
+<text x="565.0" y="515.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="start">NOCD con atributos</text>
+<rect x="755.0" y="500.0" width="18.0" height="18.0" rx="0" fill="#C00000" stroke="none" stroke-width="0"/>
+<text x="780.0" y="515.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="start">Ego-splitting</text>
+<rect x="970.0" y="500.0" width="18.0" height="18.0" rx="0" fill="#00A3A3" stroke="none" stroke-width="0"/>
+<text x="995.0" y="515.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="start">NMF bayesiana</text>
+<rect x="110.0" y="532.0" width="18.0" height="18.0" rx="0" fill="#548235" stroke="none" stroke-width="0"/>
+<text x="135.0" y="547.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="start">SLPA</text>
+<rect x="325.0" y="532.0" width="18.0" height="18.0" rx="0" fill="#A5A5A5" stroke="none" stroke-width="0"/>
+<text x="350.0" y="547.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="start">CPM (k = 3)</text>
+<rect x="540.0" y="532.0" width="18.0" height="18.0" rx="0" fill="#BF9000" stroke="none" stroke-width="0"/>
+<text x="565.0" y="547.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="start">Leiden</text>
+<rect x="755.0" y="532.0" width="18.0" height="18.0" rx="0" fill="#C55A11" stroke="none" stroke-width="0"/>
+<text x="780.0" y="547.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="start">Louvain</text>
+<rect x="970.0" y="532.0" width="18.0" height="18.0" rx="0" fill="#808080" stroke="none" stroke-width="0"/>
+<text x="995.0" y="547.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="start">Prop. etiquetas</text>
+</svg>

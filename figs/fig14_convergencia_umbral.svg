@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="580" viewBox="0 0 1240 580">
+<rect width="1240" height="580" fill="#FFFFFF"/>
+<defs>
+  <marker id="fa" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#1F4E79"/></marker>
+  <marker id="fo" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#C55A11"/></marker>
+  <marker id="fg" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#808080"/></marker>
+  <marker id="fv" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#548235"/></marker>
+</defs>
+<line x1="120.0" y1="440.0" x2="590.0" y2="440.0" stroke="#404040" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="120.0" y1="60.0" x2="120.0" y2="440.0" stroke="#404040" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="120.0" y1="440.0" x2="120.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="120.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">0</text>
+<line x1="214.0" y1="440.0" x2="214.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="214.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">5</text>
+<line x1="308.0" y1="440.0" x2="308.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="308.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">10</text>
+<line x1="402.0" y1="440.0" x2="402.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="402.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">15</text>
+<line x1="496.0" y1="440.0" x2="496.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="496.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">20</text>
+<line x1="590.0" y1="440.0" x2="590.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="590.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">25</text>
+<line x1="115.0" y1="440.0" x2="120.0" y2="440.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="120.0" y1="440.0" x2="590.0" y2="440.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="110.0" y="445.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">-1100</text>
+<line x1="115.0" y1="370.9" x2="120.0" y2="370.9" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="120.0" y1="370.9" x2="590.0" y2="370.9" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="110.0" y="375.9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">-900</text>
+<line x1="115.0" y1="301.8" x2="120.0" y2="301.8" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="120.0" y1="301.8" x2="590.0" y2="301.8" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="110.0" y="306.8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">-700</text>
+<line x1="115.0" y1="232.7" x2="120.0" y2="232.7" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="120.0" y1="232.7" x2="590.0" y2="232.7" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="110.0" y="237.7" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">-500</text>
+<line x1="115.0" y1="163.6" x2="120.0" y2="163.6" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="120.0" y1="163.6" x2="590.0" y2="163.6" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="110.0" y="168.6" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">-300</text>
+<line x1="115.0" y1="94.5" x2="120.0" y2="94.5" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="120.0" y1="94.5" x2="590.0" y2="94.5" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="110.0" y="99.5" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">-100</text>
+<text x="355.0" y="490.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#404040" text-anchor="middle" xml:space="preserve"><tspan>iteración</tspan></text>
+<text x="58" y="250.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#404040" text-anchor="middle" transform="rotate(-90 58 250.0)">log verosimilitud l(F)</text>
+<path d="M120.0,409.1 L138.8,252.3 L157.6,145.7 L176.4,120.5 L195.2,115.7 L214.0,113.3 L232.8,111.9 L251.6,111.2 L270.4,110.7 L289.2,110.2 L308.0,109.8 L326.8,109.5 L345.6,108.7 L364.4,108.2 L383.2,107.1 L402.0,106.7 L420.8,106.5 L439.6,106.3 L458.4,106.2 L477.2,106.2 L496.0,106.2 L514.8,106.2 L533.6,106.2 L552.4,106.2 L571.2,106.2 L590.0,106.2" fill="none" stroke="#2E75B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="120.0" cy="409.1" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="138.8" cy="252.3" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="157.6" cy="145.7" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="176.4" cy="120.5" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="195.2" cy="115.7" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="214.0" cy="113.3" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="232.8" cy="111.9" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="251.6" cy="111.2" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="270.4" cy="110.7" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="289.2" cy="110.2" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="308.0" cy="109.8" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="326.8" cy="109.5" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="345.6" cy="108.7" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="364.4" cy="108.2" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="383.2" cy="107.1" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="402.0" cy="106.7" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="420.8" cy="106.5" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="439.6" cy="106.3" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="458.4" cy="106.2" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="477.2" cy="106.2" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="496.0" cy="106.2" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="514.8" cy="106.2" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="533.6" cy="106.2" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="552.4" cy="106.2" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="571.2" cy="106.2" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="590.0" cy="106.2" r="3.5" fill="#2E75B6" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="355.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle">convergencia del ascenso coordinado</text>
+<line x1="760.0" y1="440.0" x2="1180.0" y2="440.0" stroke="#404040" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="760.0" y1="60.0" x2="760.0" y2="440.0" stroke="#404040" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="760.0" y1="440.0" x2="760.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="760.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">0.0</text>
+<line x1="862.0" y1="440.0" x2="862.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="862.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">0.8</text>
+<line x1="964.1" y1="440.0" x2="964.1" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="964.1" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">1.6</text>
+<line x1="1078.9" y1="440.0" x2="1078.9" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="1078.9" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">2.5</text>
+<line x1="1180.9" y1="440.0" x2="1180.9" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="1180.9" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">3.3</text>
+<line x1="755.0" y1="440.0" x2="760.0" y2="440.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="760.0" y1="440.0" x2="1180.0" y2="440.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="750.0" y="445.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">0</text>
+<line x1="755.0" y1="164.6" x2="760.0" y2="164.6" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="760.0" y1="164.6" x2="1180.0" y2="164.6" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="750.0" y="169.6" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">5</text>
+<text x="970.0" y="490.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#404040" text-anchor="middle" xml:space="preserve"><tspan>valor de F</tspan><tspan dy="3.8" font-size="10.2">uc</tspan><tspan dy="-3.8"> (mayor que 0)</tspan></text>
+<text x="698" y="250.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#404040" text-anchor="middle" transform="rotate(-90 698 250.0)">frecuencia</text>
+<rect x="761.0" y="384.9" width="18.0" height="55.1" rx="0" fill="#BFBFBF" stroke="none" stroke-width="0"/>
+<rect x="781.0" y="329.9" width="18.0" height="110.1" rx="0" fill="#BFBFBF" stroke="none" stroke-width="0"/>
+<rect x="801.0" y="274.8" width="18.0" height="165.2" rx="0" fill="#BFBFBF" stroke="none" stroke-width="0"/>
+<rect x="821.0" y="109.6" width="18.0" height="330.4" rx="0" fill="#BFBFBF" stroke="none" stroke-width="0"/>
+<rect x="841.0" y="109.6" width="18.0" height="330.4" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="861.0" y="219.7" width="18.0" height="220.3" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="881.0" y="109.6" width="18.0" height="330.4" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="901.0" y="274.8" width="18.0" height="165.2" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="921.0" y="219.7" width="18.0" height="220.3" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="941.0" y="440.0" width="18.0" height="0.0" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="961.0" y="384.9" width="18.0" height="55.1" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="981.0" y="384.9" width="18.0" height="55.1" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="1001.0" y="384.9" width="18.0" height="55.1" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="1021.0" y="440.0" width="18.0" height="0.0" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="1041.0" y="440.0" width="18.0" height="0.0" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="1061.0" y="440.0" width="18.0" height="0.0" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="1081.0" y="440.0" width="18.0" height="0.0" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="1101.0" y="440.0" width="18.0" height="0.0" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="1121.0" y="440.0" width="18.0" height="0.0" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="1141.0" y="440.0" width="18.0" height="0.0" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<rect x="1161.0" y="384.9" width="18.0" height="55.1" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<line x1="831.4" y1="60.0" x2="831.4" y2="440.0" stroke="#C55A11" stroke-width="3" stroke-linecap="round" stroke-dasharray="7,5"/>
+<text x="839.4" y="82.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#C55A11" text-anchor="start">δ = 0.56</text>
+<text x="970.0" y="30.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle" xml:space="preserve"><tspan>u ∈ c si F</tspan><tspan dy="4.5" font-size="12.2">uc</tspan><tspan dy="-4.5"> ≥ δ = √(−log(1 − ε))</tspan></text>
+</svg>

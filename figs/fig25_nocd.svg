@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="580" viewBox="0 0 1240 580">
+<rect width="1240" height="580" fill="#FFFFFF"/>
+<defs>
+  <marker id="fa" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#1F4E79"/></marker>
+  <marker id="fo" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#C55A11"/></marker>
+  <marker id="fg" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#808080"/></marker>
+  <marker id="fv" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#548235"/></marker>
+</defs>
+<rect x="20.0" y="30.0" width="180.0" height="90.0" rx="10" fill="#DEEBF7" stroke="#2E75B6" stroke-width="2"/>
+<text x="110.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle">A, X</text>
+<text x="110.0" y="96.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#404040" text-anchor="middle" xml:space="preserve"><tspan>red y atributos</tspan></text>
+<line x1="202.0" y1="75.0" x2="221.0" y2="75.0" stroke="#808080" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fg)"/>
+<rect x="223.0" y="30.0" width="180.0" height="90.0" rx="10" fill="#DEEBF7" stroke="#2E75B6" stroke-width="2"/>
+<text x="313.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle">GCN 1</text>
+<text x="313.0" y="96.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#404040" text-anchor="middle" xml:space="preserve"><tspan>128, ReLU, BatchNorm</tspan></text>
+<line x1="405.0" y1="75.0" x2="424.0" y2="75.0" stroke="#808080" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fg)"/>
+<rect x="426.0" y="30.0" width="180.0" height="90.0" rx="10" fill="#DEEBF7" stroke="#2E75B6" stroke-width="2"/>
+<text x="516.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle">GCN 2</text>
+<text x="516.0" y="96.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#404040" text-anchor="middle" xml:space="preserve"><tspan>K salidas, ReLU</tspan></text>
+<line x1="608.0" y1="75.0" x2="627.0" y2="75.0" stroke="#808080" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fg)"/>
+<rect x="629.0" y="30.0" width="180.0" height="90.0" rx="10" fill="#DEEBF7" stroke="#2E75B6" stroke-width="2"/>
+<text x="719.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle">F ≥ 0</text>
+<text x="719.0" y="96.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#404040" text-anchor="middle" xml:space="preserve"><tspan>N × K</tspan></text>
+<line x1="811.0" y1="75.0" x2="830.0" y2="75.0" stroke="#808080" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fg)"/>
+<rect x="832.0" y="30.0" width="180.0" height="90.0" rx="10" fill="#FBE5D6" stroke="#C55A11" stroke-width="2"/>
+<text x="922.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#C55A11" text-anchor="middle">Bernoulli Poisson</text>
+<text x="922.0" y="96.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#404040" text-anchor="middle" xml:space="preserve"><tspan>1 − exp(−F</tspan><tspan dy="3.2" font-size="8.8">u</tspan><tspan dy="-3.2"> · F</tspan><tspan dy="3.2" font-size="8.8">v</tspan><tspan dy="-3.2">)</tspan></text>
+<line x1="1014.0" y1="75.0" x2="1033.0" y2="75.0" stroke="#808080" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fg)"/>
+<rect x="1035.0" y="30.0" width="180.0" height="90.0" rx="10" fill="#DEEBF7" stroke="#2E75B6" stroke-width="2"/>
+<text x="1125.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle">Pérdida</text>
+<text x="1125.0" y="96.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#404040" text-anchor="middle" xml:space="preserve"><tspan>balanceada</tspan></text>
+<text x="620.0" y="150.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#C55A11" text-anchor="middle">el decodificador y la pérdida son los de BigCLAM; lo nuevo es que F sale de una red neuronal</text>
+<line x1="120.0" y1="490.0" x2="640.0" y2="490.0" stroke="#404040" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="120.0" y1="190.0" x2="120.0" y2="490.0" stroke="#404040" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="120.0" y1="490.0" x2="120.0" y2="495.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="120.0" y="512.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">0</text>
+<line x1="293.9" y1="490.0" x2="293.9" y2="495.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="293.9" y="512.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">100</text>
+<line x1="467.8" y1="490.0" x2="467.8" y2="495.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="467.8" y="512.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">200</text>
+<line x1="641.7" y1="490.0" x2="641.7" y2="495.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="641.7" y="512.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">300</text>
+<line x1="115.0" y1="490.0" x2="120.0" y2="490.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="120.0" y1="490.0" x2="640.0" y2="490.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="110.0" y="495.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">0</text>
+<line x1="115.0" y1="415.0" x2="120.0" y2="415.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="120.0" y1="415.0" x2="640.0" y2="415.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="110.0" y="420.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">1</text>
+<line x1="115.0" y1="340.0" x2="120.0" y2="340.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="120.0" y1="340.0" x2="640.0" y2="340.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="110.0" y="345.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">2</text>
+<line x1="115.0" y1="265.0" x2="120.0" y2="265.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="120.0" y1="265.0" x2="640.0" y2="265.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="110.0" y="270.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">3</text>
+<line x1="115.0" y1="190.0" x2="120.0" y2="190.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="120.0" y1="190.0" x2="640.0" y2="190.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="110.0" y="195.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">4</text>
+<text x="380.0" y="540.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#404040" text-anchor="middle" xml:space="preserve"><tspan>época</tspan></text>
+<text x="58" y="340.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#404040" text-anchor="middle" transform="rotate(-90 58 340.0)">pérdida</text>
+<path d="M120.0,190.0 L137.4,190.0 L154.8,297.2 L172.2,365.0 L189.6,387.1 L207.0,390.9 L224.3,391.3 L241.7,391.9 L259.1,392.9 L276.5,393.5 L293.9,394.1 L311.3,395.2 L328.7,396.6 L346.1,398.5 L363.5,400.8 L380.9,403.1 L398.3,405.6 L415.7,407.9 L433.0,409.7 L450.4,411.9 L467.8,412.4 L485.2,413.2 L502.6,413.7 L520.0,414.6 L537.4,415.8 L554.8,417.0 L572.2,419.2 L589.6,420.9 L607.0,422.8 L624.3,424.8 L640.0,425.8" fill="none" stroke="#2E75B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="740.0" y="200.0" width="460.0" height="300.0" rx="6" fill="#FFFFFF" stroke="#2E75B6" stroke-width="1.5"/>
+<text x="762.0" y="235.6" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" fill="#404040" text-anchor="start">Ventajas frente a BigCLAM</text>
+<text x="762.0" y="265.6" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" fill="#404040" text-anchor="start">1. F = GCN(A, X): sirve para nodos nuevos</text>
+<text x="762.0" y="295.6" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" fill="#404040" text-anchor="start">2. puede usar atributos X del nodo</text>
+<text x="762.0" y="325.6" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" fill="#404040" text-anchor="start">3. se entrena por lotes en GPU</text>
+<text x="762.0" y="355.6" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" fill="#404040" text-anchor="start"></text>
+<text x="762.0" y="385.6" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" fill="#404040" text-anchor="start">Costos</text>
+<text x="762.0" y="415.6" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" fill="#404040" text-anchor="start">1. más hiperparámetros (capas, tasa, épocas)</text>
+<text x="762.0" y="445.6" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" fill="#404040" text-anchor="start">2. umbral fijo de 0.5 y K fijo</text>
+<text x="762.0" y="475.6" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" fill="#404040" text-anchor="start">3. sin atributos útiles rinde parecido</text>
+</svg>

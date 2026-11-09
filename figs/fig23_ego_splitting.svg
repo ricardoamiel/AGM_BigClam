@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="580" viewBox="0 0 1240 580">
+<rect width="1240" height="580" fill="#FFFFFF"/>
+<defs>
+  <marker id="fa" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#1F4E79"/></marker>
+  <marker id="fo" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#C55A11"/></marker>
+  <marker id="fg" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#808080"/></marker>
+  <marker id="fv" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#548235"/></marker>
+</defs>
+<rect x="10.0" y="20.0" width="295.0" height="400.0" rx="10" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1.5"/>
+<text x="157.0" y="52.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle">1. grafo original</text>
+<rect x="317.0" y="20.0" width="295.0" height="400.0" rx="10" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1.5"/>
+<text x="464.0" y="52.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle">2. ego-net de c (sin c)</text>
+<rect x="624.0" y="20.0" width="295.0" height="400.0" rx="10" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1.5"/>
+<text x="771.0" y="52.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle">3. grafo de personas</text>
+<rect x="931.0" y="20.0" width="295.0" height="400.0" rx="10" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1.5"/>
+<text x="1078.0" y="52.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle">4. comunidades</text>
+<line x1="48.8" y1="186.5" x2="48.8" y2="310.0" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="48.8" y1="186.5" x2="106.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="48.8" y1="310.0" x2="106.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="106.4" y1="248.2" x2="160.4" y2="177.0" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="106.4" y1="248.2" x2="160.4" y2="319.5" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="106.4" y1="248.2" x2="214.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="160.4" y1="177.0" x2="160.4" y2="319.5" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="160.4" y1="177.0" x2="214.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="160.4" y1="319.5" x2="214.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="214.4" y1="248.2" x2="268.4" y2="186.5" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="214.4" y1="248.2" x2="268.4" y2="310.0" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="268.4" y1="186.5" x2="268.4" y2="310.0" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<circle cx="48.8" cy="186.5" r="14.0" fill="#2E75B6" stroke="#404040" stroke-width="1.2"/>
+<text x="48.8" y="191.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">a</text>
+<circle cx="48.8" cy="310.0" r="14.0" fill="#2E75B6" stroke="#404040" stroke-width="1.2"/>
+<text x="48.8" y="315.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">b</text>
+<circle cx="106.4" cy="248.2" r="14.0" fill="#C55A11" stroke="#404040" stroke-width="1.2"/>
+<text x="106.4" y="253.2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">c</text>
+<circle cx="160.4" cy="177.0" r="14.0" fill="#2E75B6" stroke="#404040" stroke-width="1.2"/>
+<text x="160.4" y="182.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">d</text>
+<circle cx="160.4" cy="319.5" r="14.0" fill="#2E75B6" stroke="#404040" stroke-width="1.2"/>
+<text x="160.4" y="324.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">e</text>
+<circle cx="214.4" cy="248.2" r="14.0" fill="#2E75B6" stroke="#404040" stroke-width="1.2"/>
+<text x="214.4" y="253.2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">f</text>
+<circle cx="268.4" cy="186.5" r="14.0" fill="#2E75B6" stroke="#404040" stroke-width="1.2"/>
+<text x="268.4" y="191.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">g</text>
+<circle cx="268.4" cy="310.0" r="14.0" fill="#2E75B6" stroke="#404040" stroke-width="1.2"/>
+<text x="268.4" y="315.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">h</text>
+<line x1="355.8" y1="186.5" x2="355.8" y2="310.0" stroke="#404040" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="467.4" y1="177.0" x2="467.4" y2="319.5" stroke="#404040" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="467.4" y1="177.0" x2="521.4" y2="248.2" stroke="#404040" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="467.4" y1="319.5" x2="521.4" y2="248.2" stroke="#404040" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="413.4" cy="248.2" r="14.0" fill="none" stroke="#808080" stroke-width="1.5"/>
+<circle cx="467.4" cy="177.0" r="14.0" fill="#C55A11" stroke="#404040" stroke-width="1.2"/>
+<text x="467.4" y="182.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">d</text>
+<circle cx="467.4" cy="319.5" r="14.0" fill="#C55A11" stroke="#404040" stroke-width="1.2"/>
+<text x="467.4" y="324.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">e</text>
+<circle cx="521.4" cy="248.2" r="14.0" fill="#C55A11" stroke="#404040" stroke-width="1.2"/>
+<text x="521.4" y="253.2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">f</text>
+<circle cx="355.8" cy="186.5" r="14.0" fill="#2E75B6" stroke="#404040" stroke-width="1.2"/>
+<text x="355.8" y="191.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">a</text>
+<circle cx="355.8" cy="310.0" r="14.0" fill="#2E75B6" stroke="#404040" stroke-width="1.2"/>
+<text x="355.8" y="315.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">b</text>
+<text x="464.0" y="380.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#404040" text-anchor="middle">dos componentes: c1 ve {a, b}, c2 ve {d, e, f}</text>
+<line x1="662.8" y1="186.5" x2="662.8" y2="310.0" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="662.8" y1="186.5" x2="698.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="662.8" y1="310.0" x2="698.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="742.4" y1="248.2" x2="774.4" y2="177.0" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="742.4" y1="248.2" x2="774.4" y2="319.5" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="742.4" y1="248.2" x2="806.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="774.4" y1="177.0" x2="774.4" y2="319.5" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="774.4" y1="177.0" x2="806.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="774.4" y1="319.5" x2="806.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="850.4" y1="248.2" x2="882.4" y2="186.5" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="850.4" y1="248.2" x2="882.4" y2="310.0" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="882.4" y1="186.5" x2="882.4" y2="310.0" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<circle cx="662.8" cy="310.0" r="13.0" fill="#2E75B6" stroke="#404040" stroke-width="1.2"/>
+<text x="662.8" y="315.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">b1</text>
+<circle cx="698.4" cy="248.2" r="13.0" fill="#2E75B6" stroke="#404040" stroke-width="1.2"/>
+<text x="698.4" y="253.2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">c1</text>
+<circle cx="662.8" cy="186.5" r="13.0" fill="#2E75B6" stroke="#404040" stroke-width="1.2"/>
+<text x="662.8" y="191.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">a1</text>
+<circle cx="774.4" cy="177.0" r="13.0" fill="#C55A11" stroke="#404040" stroke-width="1.2"/>
+<text x="774.4" y="182.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">d1</text>
+<circle cx="774.4" cy="319.5" r="13.0" fill="#C55A11" stroke="#404040" stroke-width="1.2"/>
+<text x="774.4" y="324.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">e1</text>
+<circle cx="806.4" cy="248.2" r="13.0" fill="#C55A11" stroke="#404040" stroke-width="1.2"/>
+<text x="806.4" y="253.2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">f1</text>
+<circle cx="742.4" cy="248.2" r="13.0" fill="#C55A11" stroke="#404040" stroke-width="1.2"/>
+<text x="742.4" y="253.2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">c2</text>
+<circle cx="882.4" cy="310.0" r="13.0" fill="#548235" stroke="#404040" stroke-width="1.2"/>
+<text x="882.4" y="315.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">h1</text>
+<circle cx="882.4" cy="186.5" r="13.0" fill="#548235" stroke="#404040" stroke-width="1.2"/>
+<text x="882.4" y="191.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">g1</text>
+<circle cx="850.4" cy="248.2" r="13.0" fill="#548235" stroke="#404040" stroke-width="1.2"/>
+<text x="850.4" y="253.2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">f2</text>
+<text x="771.0" y="380.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#404040" text-anchor="middle">c y f se parten en dos personas</text>
+<line x1="969.8" y1="186.5" x2="969.8" y2="310.0" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="969.8" y1="186.5" x2="1027.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="969.8" y1="310.0" x2="1027.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="1027.4" y1="248.2" x2="1081.4" y2="177.0" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="1027.4" y1="248.2" x2="1081.4" y2="319.5" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="1027.4" y1="248.2" x2="1135.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="1081.4" y1="177.0" x2="1081.4" y2="319.5" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="1081.4" y1="177.0" x2="1135.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="1081.4" y1="319.5" x2="1135.4" y2="248.2" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="1135.4" y1="248.2" x2="1189.4" y2="186.5" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="1135.4" y1="248.2" x2="1189.4" y2="310.0" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<line x1="1189.4" y1="186.5" x2="1189.4" y2="310.0" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round"/>
+<circle cx="969.8" cy="186.5" r="14.0" fill="#2E75B6" stroke="#404040" stroke-width="1.4"/>
+<text x="969.8" y="191.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">a</text>
+<circle cx="969.8" cy="310.0" r="14.0" fill="#2E75B6" stroke="#404040" stroke-width="1.4"/>
+<text x="969.8" y="315.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">b</text>
+<path d="M1027.4,248.2 L1027.4,234.2 A14,14 0 0 1 1027.4,262.2 Z" fill="#2E75B6" stroke="none"/>
+<path d="M1027.4,248.2 L1027.4,262.2 A14,14 0 0 1 1027.4,234.2 Z" fill="#C55A11" stroke="none"/>
+<circle cx="1027.4" cy="248.2" r="14.0" fill="none" stroke="#404040" stroke-width="1.4"/>
+<text x="1027.4" y="253.2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">c</text>
+<circle cx="1081.4" cy="177.0" r="14.0" fill="#C55A11" stroke="#404040" stroke-width="1.4"/>
+<text x="1081.4" y="182.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">d</text>
+<circle cx="1081.4" cy="319.5" r="14.0" fill="#C55A11" stroke="#404040" stroke-width="1.4"/>
+<text x="1081.4" y="324.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">e</text>
+<path d="M1135.4,248.2 L1135.4,234.2 A14,14 0 0 1 1135.4,262.2 Z" fill="#C55A11" stroke="none"/>
+<path d="M1135.4,248.2 L1135.4,262.2 A14,14 0 0 1 1135.4,234.2 Z" fill="#548235" stroke="none"/>
+<circle cx="1135.4" cy="248.2" r="14.0" fill="none" stroke="#404040" stroke-width="1.4"/>
+<text x="1135.4" y="253.2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">f</text>
+<circle cx="1189.4" cy="186.5" r="14.0" fill="#548235" stroke="#404040" stroke-width="1.4"/>
+<text x="1189.4" y="191.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">g</text>
+<circle cx="1189.4" cy="310.0" r="14.0" fill="#548235" stroke="#404040" stroke-width="1.4"/>
+<text x="1189.4" y="315.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">h</text>
+<text x="1078.0" y="380.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#404040" text-anchor="middle">{a, b, c}, {c, d, e, f}, {f, g, h}</text>
+<text x="620.0" y="470.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" fill="#404040" text-anchor="middle">Paso local: particionar la ego-net de cada nodo y crear una persona por parte.</text>
+<text x="620.0" y="505.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" fill="#404040" text-anchor="middle">Paso global: particionar el grafo de personas y traducir cada grupo a sus nodos originales.</text>
+<text x="620.0" y="545.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#548235" text-anchor="middle">Ambos pasos usan un algoritmo de partición cualquiera: aquí componentes conexas, en la práctica Louvain.</text>
+</svg>

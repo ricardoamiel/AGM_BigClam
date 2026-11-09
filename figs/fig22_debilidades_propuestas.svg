@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="580" viewBox="0 0 1240 580">
+<rect width="1240" height="580" fill="#FFFFFF"/>
+<defs>
+  <marker id="fa" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#1F4E79"/></marker>
+  <marker id="fo" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#C55A11"/></marker>
+  <marker id="fg" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#808080"/></marker>
+  <marker id="fv" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#548235"/></marker>
+</defs>
+<text x="170.0" y="32.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#808080" text-anchor="middle">debilidad</text>
+<text x="610.0" y="32.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#808080" text-anchor="middle">propuesta</text>
+<text x="1010.0" y="32.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#808080" text-anchor="middle">cómo la resuelve</text>
+<rect x="30.0" y="50.0" width="280.0" height="68.0" rx="10" fill="#FBE5D6" stroke="#C55A11" stroke-width="2"/>
+<text x="170.0" y="91.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#C55A11" text-anchor="middle">Hay que fijar K</text>
+<line x1="314.0" y1="84.0" x2="372.0" y2="84.0" stroke="#808080" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fg)"/>
+<rect x="376.0" y="50.0" width="470.0" height="68.0" rx="10" fill="#DEEBF7" stroke="#2E75B6" stroke-width="2"/>
+<text x="611.0" y="91.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#1F4E79" text-anchor="middle">NMF bayesiana con ARD (2011), SBM bayesiano (2019)</text>
+<text x="1010.0" y="91.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#404040" text-anchor="middle">la prior apaga comunidades sobrantes</text>
+<rect x="30.0" y="136.0" width="280.0" height="68.0" rx="10" fill="#FBE5D6" stroke="#C55A11" stroke-width="2"/>
+<text x="170.0" y="177.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#C55A11" text-anchor="middle">Escala y velocidad</text>
+<line x1="314.0" y1="170.0" x2="372.0" y2="170.0" stroke="#808080" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fg)"/>
+<rect x="376.0" y="136.0" width="470.0" height="68.0" rx="10" fill="#DEEBF7" stroke="#2E75B6" stroke-width="2"/>
+<text x="611.0" y="177.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#1F4E79" text-anchor="middle">Ego-splitting (2017), SVI (2013), Leiden (2019)</text>
+<text x="1010.0" y="177.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#404040" text-anchor="middle">particiones rápidas o inferencia por muestras</text>
+<rect x="30.0" y="222.0" width="280.0" height="68.0" rx="10" fill="#FBE5D6" stroke="#C55A11" stroke-width="2"/>
+<text x="170.0" y="263.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#C55A11" text-anchor="middle">Ignora atributos</text>
+<line x1="314.0" y1="256.0" x2="372.0" y2="256.0" stroke="#808080" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fg)"/>
+<rect x="376.0" y="222.0" width="470.0" height="68.0" rx="10" fill="#DEEBF7" stroke="#2E75B6" stroke-width="2"/>
+<text x="611.0" y="263.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#1F4E79" text-anchor="middle">CESNA (2013), NOCD (2019)</text>
+<text x="1010.0" y="263.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#404040" text-anchor="middle">F depende de la red y del contenido del nodo</text>
+<rect x="30.0" y="308.0" width="280.0" height="68.0" rx="10" fill="#FBE5D6" stroke="#C55A11" stroke-width="2"/>
+<text x="170.0" y="349.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#C55A11" text-anchor="middle">No generaliza a nodos nuevos</text>
+<line x1="314.0" y1="342.0" x2="372.0" y2="342.0" stroke="#808080" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fg)"/>
+<rect x="376.0" y="308.0" width="470.0" height="68.0" rx="10" fill="#DEEBF7" stroke="#2E75B6" stroke-width="2"/>
+<text x="611.0" y="349.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#1F4E79" text-anchor="middle">NOCD (2019), LQ-GCN (2025)</text>
+<text x="1010.0" y="349.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#404040" text-anchor="middle">F = GCN(A, X): una función, no una tabla</text>
+<rect x="30.0" y="394.0" width="280.0" height="68.0" rx="10" fill="#FBE5D6" stroke="#C55A11" stroke-width="2"/>
+<text x="170.0" y="435.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#C55A11" text-anchor="middle">Grafo dirigido</text>
+<line x1="314.0" y1="428.0" x2="372.0" y2="428.0" stroke="#808080" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fg)"/>
+<rect x="376.0" y="394.0" width="470.0" height="68.0" rx="10" fill="#DEEBF7" stroke="#2E75B6" stroke-width="2"/>
+<text x="611.0" y="435.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#1F4E79" text-anchor="middle">CoDA (2014)</text>
+<text x="1010.0" y="435.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#404040" text-anchor="middle">membresías F de salida y H de entrada</text>
+<rect x="30.0" y="480.0" width="280.0" height="68.0" rx="10" fill="#FBE5D6" stroke="#C55A11" stroke-width="2"/>
+<text x="170.0" y="521.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#C55A11" text-anchor="middle">Red incompleta</text>
+<line x1="314.0" y1="514.0" x2="372.0" y2="514.0" stroke="#808080" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fg)"/>
+<rect x="376.0" y="480.0" width="470.0" height="68.0" rx="10" fill="#DEEBF7" stroke="#2E75B6" stroke-width="2"/>
+<text x="611.0" y="521.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#1F4E79" text-anchor="middle">META-CODE (2025)</text>
+<text x="1010.0" y="521.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#404040" text-anchor="middle">consulta nodos e infiere aristas faltantes</text>
+</svg>

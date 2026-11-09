@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="580" viewBox="0 0 1240 580">
+<rect width="1240" height="580" fill="#FFFFFF"/>
+<defs>
+  <marker id="fa" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#1F4E79"/></marker>
+  <marker id="fo" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#C55A11"/></marker>
+  <marker id="fg" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#808080"/></marker>
+  <marker id="fv" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#548235"/></marker>
+</defs>
+<rect x="60.0" y="20.0" width="1120.0" height="120.0" rx="10" fill="#F2F2F2" stroke="#808080" stroke-width="1.5"/>
+<text x="620.0" y="62.0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1F4E79" text-anchor="middle" xml:space="preserve"><tspan>argmax</tspan><tspan dy="5.5" font-size="15.0">B, {p_c</tspan><tspan dy="-5.5">}   L = ∏</tspan><tspan dy="5.5" font-size="15.0">(u,v) ∈ E</tspan><tspan dy="-5.5"> p(u, v)  ·  ∏</tspan><tspan dy="5.5" font-size="15.0">(u,v) ∉ E</tspan><tspan dy="-5.5"> (1 − p(u, v))</tspan></text>
+<text x="620.0" y="108.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" fill="#404040" text-anchor="middle" xml:space="preserve"><tspan>con 1 − p</tspan><tspan dy="4.5" font-size="12.2">c</tspan><tspan dy="-4.5"> = exp(−x</tspan><tspan dy="4.5" font-size="12.2">c</tspan><tspan dy="-4.5">):   log L = Σ</tspan><tspan dy="4.5" font-size="12.2">E</tspan><tspan dy="-4.5"> log(1 − exp(−Σ</tspan><tspan dy="4.5" font-size="12.2">c</tspan><tspan dy="-4.5"> x</tspan><tspan dy="4.5" font-size="12.2">c</tspan><tspan dy="-4.5">))  −  Σ</tspan><tspan dy="4.5" font-size="12.2">no E</tspan><tspan dy="-4.5"> Σ</tspan><tspan dy="4.5" font-size="12.2">c</tspan><tspan dy="-4.5"> x</tspan><tspan dy="4.5" font-size="12.2">c</tspan><tspan dy="-4.5">      (cóncava en x para B fijo)</tspan></text>
+<rect x="90.0" y="200.0" width="440.0" height="300.0" rx="10" fill="#E2F0D9" stroke="#548235" stroke-width="2"/>
+<text x="310.0" y="230.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#548235" text-anchor="middle">Paso 1: actualizar las p con B fijo</text>
+<text x="115.0" y="270.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" fill="#404040" text-anchor="start" xml:space="preserve"><tspan>•  problema convexo en x</tspan><tspan dy="4.5" font-size="12.2">c</tspan><tspan dy="-4.5"> ≥ 0</tspan></text>
+<text x="115.0" y="316.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" fill="#404040" text-anchor="start" xml:space="preserve"><tspan>•  gradiente o Newton: óptimo global</tspan></text>
+<text x="115.0" y="362.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" fill="#404040" text-anchor="start" xml:space="preserve"><tspan>•  sin solape: p̂</tspan><tspan dy="4.5" font-size="12.2">c</tspan><tspan dy="-4.5"> = aristas internas / pares</tspan></text>
+<text x="115.0" y="408.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" fill="#404040" text-anchor="start" xml:space="preserve"><tspan>•  exactamente como la moneda</tspan></text>
+<rect x="710.0" y="200.0" width="440.0" height="300.0" rx="10" fill="#FBE5D6" stroke="#C55A11" stroke-width="2"/>
+<text x="930.0" y="230.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#C55A11" text-anchor="middle">Paso 2: actualizar B con las p fijas</text>
+<text x="735.0" y="270.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" fill="#404040" text-anchor="start" xml:space="preserve"><tspan>•  búsqueda combinatoria: 2</tspan><tspan dy="-7.6" font-size="12.2">N K</tspan><tspan dy="7.6"> grafos</tspan></text>
+<text x="735.0" y="316.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" fill="#404040" text-anchor="start" xml:space="preserve"><tspan>•  Metropolis Hastings con transiciones</tspan></text>
+<text x="735.0" y="362.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" fill="#404040" text-anchor="start" xml:space="preserve"><tspan>•  LEAVE, JOIN y SWITCH</tspan></text>
+<text x="735.0" y="408.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" fill="#404040" text-anchor="start" xml:space="preserve"><tspan>•  aceptar con prob. min(1, L' / L)</tspan></text>
+<path d="M530,300 C600,250 640,250 710,300" fill="none" stroke="#808080" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#fg)"/>
+<path d="M710,410 C640,460 600,460 530,410" fill="none" stroke="#808080" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#fg)"/>
+<text x="620.0" y="355.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#808080" text-anchor="middle">repetir</text>
+<text x="620.0" y="548.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#C00000" text-anchor="middle">Ascenso coordinado por bloques: no garantiza el óptimo global y cuesta O(N²) por paso</text>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="580" viewBox="0 0 1240 580">
+<rect width="1240" height="580" fill="#FFFFFF"/>
+<defs>
+  <marker id="fa" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#1F4E79"/></marker>
+  <marker id="fo" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#C55A11"/></marker>
+  <marker id="fg" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#808080"/></marker>
+  <marker id="fv" markerWidth="9" markerHeight="9" refX="7.5" refY="3.2" orient="auto">
+    <path d="M0,0 L7.5,3.2 L0,6.4 z" fill="#548235"/></marker>
+</defs>
+<line x1="110.0" y1="440.0" x2="590.0" y2="440.0" stroke="#404040" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="110.0" y1="60.0" x2="110.0" y2="440.0" stroke="#404040" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="110.0" y1="440.0" x2="110.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="110.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">0</text>
+<line x1="230.0" y1="440.0" x2="230.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="230.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">50</text>
+<line x1="350.0" y1="440.0" x2="350.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="350.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">100</text>
+<line x1="470.0" y1="440.0" x2="470.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="470.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">150</text>
+<line x1="590.0" y1="440.0" x2="590.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="590.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">200</text>
+<line x1="105.0" y1="440.0" x2="110.0" y2="440.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110.0" y1="440.0" x2="590.0" y2="440.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="445.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">0</text>
+<line x1="105.0" y1="380.6" x2="110.0" y2="380.6" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110.0" y1="380.6" x2="590.0" y2="380.6" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="385.6" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">5</text>
+<line x1="105.0" y1="321.2" x2="110.0" y2="321.2" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110.0" y1="321.2" x2="590.0" y2="321.2" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="326.2" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">10</text>
+<line x1="105.0" y1="261.9" x2="110.0" y2="261.9" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110.0" y1="261.9" x2="590.0" y2="261.9" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="266.9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">15</text>
+<line x1="105.0" y1="202.5" x2="110.0" y2="202.5" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110.0" y1="202.5" x2="590.0" y2="202.5" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="207.5" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">20</text>
+<line x1="105.0" y1="143.1" x2="110.0" y2="143.1" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110.0" y1="143.1" x2="590.0" y2="143.1" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="148.1" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">25</text>
+<line x1="105.0" y1="83.8" x2="110.0" y2="83.8" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110.0" y1="83.8" x2="590.0" y2="83.8" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="88.8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">30</text>
+<text x="350.0" y="490.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#404040" text-anchor="middle" xml:space="preserve"><tspan>iteración</tspan></text>
+<text x="48" y="250.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#404040" text-anchor="middle" transform="rotate(-90 48 250.0)">comunidades vivas</text>
+<path d="M110.0,83.8 L112.4,83.8 L114.8,83.8 L117.2,83.8 L119.6,83.8 L122.0,131.2 L124.4,214.4 L126.8,285.6 L129.2,297.5 L131.6,309.4 L134.0,309.4 L136.4,309.4 L138.8,321.2 L141.2,321.2 L143.6,321.2 L146.0,333.1 L148.4,333.1 L150.8,333.1 L153.2,345.0 L155.6,345.0 L158.0,345.0 L160.4,345.0 L162.8,345.0 L165.2,345.0 L167.6,345.0 L170.0,345.0 L172.4,356.9 L174.8,356.9 L177.2,356.9 L179.6,356.9 L182.0,356.9 L184.4,356.9 L186.8,356.9 L189.2,356.9 L191.6,356.9 L194.0,356.9 L196.4,356.9 L198.8,356.9 L201.2,356.9 L203.6,356.9 L206.0,356.9 L208.4,356.9 L210.8,356.9 L213.2,356.9 L215.6,356.9 L218.0,356.9 L220.4,356.9 L222.8,356.9 L225.2,356.9 L227.6,356.9 L230.0,356.9 L232.4,356.9 L234.8,356.9 L237.2,356.9 L239.6,356.9 L242.0,356.9 L244.4,356.9 L246.8,368.8 L249.2,368.8 L251.6,368.8 L254.0,368.8 L256.4,368.8 L258.8,368.8 L261.2,368.8 L263.6,368.8 L266.0,368.8 L268.4,368.8 L270.8,368.8 L273.2,368.8 L275.6,368.8 L278.0,368.8 L280.4,368.8 L282.8,368.8 L285.2,368.8 L287.6,368.8 L290.0,368.8 L292.4,368.8 L294.8,368.8 L297.2,368.8 L299.6,368.8 L302.0,368.8 L304.4,368.8 L306.8,368.8 L309.2,368.8 L311.6,368.8 L314.0,368.8 L316.4,368.8 L318.8,368.8 L321.2,368.8 L323.6,368.8 L326.0,368.8 L328.4,368.8 L330.8,368.8 L333.2,368.8 L335.6,368.8 L338.0,368.8 L340.4,368.8 L342.8,368.8 L345.2,368.8 L347.6,368.8 L350.0,368.8 L352.4,368.8 L354.8,368.8 L357.2,368.8 L359.6,368.8 L362.0,368.8 L364.4,368.8 L366.8,368.8 L369.2,368.8 L371.6,368.8 L374.0,368.8 L376.4,368.8 L378.8,368.8 L381.2,368.8 L383.6,368.8 L386.0,368.8 L388.4,368.8 L390.8,368.8 L393.2,368.8 L395.6,368.8 L398.0,368.8 L400.4,368.8 L402.8,368.8 L405.2,368.8 L407.6,368.8 L410.0,368.8 L412.4,368.8 L414.8,368.8 L417.2,368.8 L419.6,368.8 L422.0,368.8 L424.4,368.8 L426.8,368.8 L429.2,368.8 L431.6,368.8 L434.0,368.8 L436.4,368.8 L438.8,368.8 L441.2,368.8 L443.6,368.8 L446.0,368.8 L448.4,368.8 L450.8,368.8 L453.2,368.8 L455.6,368.8 L458.0,368.8 L460.4,368.8 L462.8,368.8 L465.2,368.8 L467.6,368.8 L470.0,368.8 L472.4,368.8 L474.8,368.8 L477.2,368.8 L479.6,368.8 L482.0,368.8 L484.4,368.8 L486.8,368.8 L489.2,368.8 L491.6,368.8 L494.0,368.8 L496.4,368.8 L498.8,368.8 L501.2,368.8 L503.6,368.8 L506.0,368.8 L508.4,368.8 L510.8,368.8 L513.2,368.8 L515.6,368.8 L518.0,368.8 L520.4,368.8 L522.8,368.8 L525.2,368.8 L527.6,368.8 L530.0,368.8 L532.4,368.8 L534.8,368.8 L537.2,368.8 L539.6,368.8 L542.0,368.8 L544.4,368.8 L546.8,368.8 L549.2,368.8 L551.6,368.8 L554.0,368.8 L556.4,368.8 L558.8,368.8 L561.2,368.8 L563.6,368.8 L566.0,368.8 L568.4,368.8 L570.8,368.8 L573.2,368.8 L575.6,368.8 L578.0,368.8 L580.4,368.8 L582.8,368.8 L585.2,368.8 L587.6,368.8" fill="none" stroke="#C55A11" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="110.0" y1="392.5" x2="590.0" y2="392.5" stroke="#548235" stroke-width="2" stroke-linecap="round" stroke-dasharray="7,5"/>
+<text x="586.0" y="382.5" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#548235" text-anchor="end">K real = 4</text>
+<text x="350.0" y="36.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle">sin solape: de 30 comunidades quedan 6</text>
+<line x1="760.0" y1="440.0" x2="1180.0" y2="440.0" stroke="#404040" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="760.0" y1="60.0" x2="760.0" y2="440.0" stroke="#404040" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="802.0" y1="440.0" x2="802.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="802.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">0.0</text>
+<line x1="886.0" y1="440.0" x2="886.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="886.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">0.2</text>
+<line x1="970.0" y1="440.0" x2="970.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="970.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">0.4</text>
+<line x1="1054.0" y1="440.0" x2="1054.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="1054.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">0.6</text>
+<line x1="1138.0" y1="440.0" x2="1138.0" y2="445.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<text x="1138.0" y="462.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="middle">0.8</text>
+<line x1="755.0" y1="440.0" x2="760.0" y2="440.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="760.0" y1="440.0" x2="1180.0" y2="440.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="750.0" y="445.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">0</text>
+<line x1="755.0" y1="345.0" x2="760.0" y2="345.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="760.0" y1="345.0" x2="1180.0" y2="345.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="750.0" y="350.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">4</text>
+<line x1="755.0" y1="250.0" x2="760.0" y2="250.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="760.0" y1="250.0" x2="1180.0" y2="250.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="750.0" y="255.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">8</text>
+<line x1="755.0" y1="155.0" x2="760.0" y2="155.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="760.0" y1="155.0" x2="1180.0" y2="155.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="750.0" y="160.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">12</text>
+<line x1="755.0" y1="60.0" x2="760.0" y2="60.0" stroke="#404040" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="760.0" y1="60.0" x2="1180.0" y2="60.0" stroke="#EDEDED" stroke-width="1" stroke-linecap="round"/>
+<text x="750.0" y="65.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#404040" text-anchor="end">16</text>
+<text x="970.0" y="490.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#404040" text-anchor="middle" xml:space="preserve"><tspan>fracción de nodos en dos comunidades</tspan></text>
+<text x="698" y="250.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#404040" text-anchor="middle" transform="rotate(-90 698 250.0)">K que deja vivo</text>
+<rect x="776.0" y="321.2" width="52.0" height="118.8" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<text x="802.0" y="313.2" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#404040" text-anchor="middle">5</text>
+<rect x="860.0" y="250.0" width="52.0" height="190.0" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<text x="886.0" y="242.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#404040" text-anchor="middle">8</text>
+<rect x="944.0" y="202.5" width="52.0" height="237.5" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<text x="970.0" y="194.5" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#404040" text-anchor="middle">10</text>
+<rect x="1028.0" y="155.0" width="52.0" height="285.0" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<text x="1054.0" y="147.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#404040" text-anchor="middle">12</text>
+<rect x="1112.0" y="83.8" width="52.0" height="356.2" rx="0" fill="#2E75B6" stroke="none" stroke-width="0"/>
+<text x="1138.0" y="75.8" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#404040" text-anchor="middle">15</text>
+<line x1="760.0" y1="345.0" x2="1180.0" y2="345.0" stroke="#548235" stroke-width="2" stroke-linecap="round" stroke-dasharray="7,5"/>
+<text x="970.0" y="36.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle">con solape crea una comunidad por zona solapada</text>
+</svg>
