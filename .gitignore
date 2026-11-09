@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# LaTeX auxiliares
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Papers: se listan en papers/LEEME.md, los PDF tienen derechos de autor
+papers/*.pdf
+
+# Datos de SNAP: se descargan con las instrucciones del LEEME
+datos/
+
+# Figuras derivadas: se regeneran desde los SVG con inkscape
+figs/emf/
+figs/png/
+
+# Sistema y editores
+.DS_Store
+.vscode/
+.idea/
+
+# Generadores locales y fuente LaTeX
+figs/generar_figuras.py
+figs/svgkit.py
+notebook/construir_notebook.py
+presentacion/construir_pptx.py
+tex/
