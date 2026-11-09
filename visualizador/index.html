@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AGM y BigCLAM paso a paso</title>
+<link rel="stylesheet" href="estilo.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head>
+<body>
+<header>
+  <div class="marca">
+    <h1>AGM y BigCLAM paso a paso</h1>
+    <p>Detección de comunidades superpuestas con modelos generativos</p>
+  </div>
+  <button id="tema" class="boton secundario" aria-label="Cambiar tema">Tema oscuro</button>
+</header>
+
+<nav class="pestanas" role="tablist">
+  <button class="pestana activa" data-panel="agm" role="tab">1. AGM generativo</button>
+  <button class="pestana" data-panel="mle" role="tab">2. Máxima verosimilitud</button>
+  <button class="pestana" data-panel="bigclam" role="tab">3. BigCLAM</button>
+  <button class="pestana" data-panel="dirigido" role="tab">4. AGM dirigido</button>
+  <button class="pestana" data-panel="recientes" role="tab">5. Propuestas recientes</button>
+</nav>
+
+<main>
+<!-- ============================================================ -->
+<section id="agm" class="panel activo">
+  <div class="intro">
+    <p>Cada comunidad c tiene una probabilidad p<sub>c</sub>. Para cada par de nodos u, v se calcula
+    p(u, v) = 1 − (1 − ε) ∏ (1 − p<sub>c</sub>) sobre las comunidades que comparten, y se lanza una moneda.
+    Avance par por par para ver el proceso.</p>
+  </div>
+  <div class="controles">
+    <label>p<sub>A</sub> <input type="range" id="pA" min="0" max="1" step="0.05" value="0.6"><span id="pAv">0.60</span></label>
+    <label>p<sub>B</sub> <input type="range" id="pB" min="0" max="1" step="0.05" value="0.5"><span id="pBv">0.50</span></label>
+    <label>p<sub>C</sub> <input type="range" id="pC" min="0" max="1" step="0.05" value="0.8"><span id="pCv">0.80</span></label>
+    <label>ε <input type="range" id="eps" min="0" max="0.2" step="0.01" value="0.02"><span id="epsv">0.02</span></label>
+    <label>semilla <input type="number" id="semillaAGM" value="7" min="1" max="999"></label>
+  </div>
+  <div class="botones">
+    <button class="boton" id="agmPaso">Siguiente par</button>
+    <button class="boton" id="agmPlay">Reproducir</button>
+    <button class="boton secundario" id="agmTodo">Generar todo</button>
+    <button class="boton secundario" id="agmReset">Reiniciar</button>
+  </div>
+  <div class="rejilla">
+    <div class="tarjeta"><h3>Grafo de afiliación B(V, C, M)</h3><svg id="agmBip" viewBox="0 0 520 330"></svg></div>
+    <div class="tarjeta"><h3>Red generada G(V, E)</h3><svg id="agmRed" viewBox="0 0 520 330"></svg></div>
+  </div>
+  <div class="rejilla">
+    <div class="tarjeta explicacion" id="agmExp"></div>
+    <div class="tarjeta"><h3>Probabilidad empírica según comunidades compartidas</h3><svg id="agmBarras" viewBox="0 0 520 220"></svg></div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section id="mle" class="panel">
+  <div class="intro">
+    <p>La estimación de máxima verosimilitud elige el parámetro que hace más probable lo observado.
+    Con una moneda, el máximo está en caras / lanzamientos. En el AGM se hace lo mismo con cada p<sub>c</sub>,
+    usando la red generada en la pestaña 1.</p>
+  </div>
+  <div class="controles">
+    <label>lanzamientos n <input type="range" id="mleN" min="1" max="50" value="10"><span id="mleNv">10</span></label>
+    <label>caras k <input type="range" id="mleK" min="0" max="10" value="7"><span id="mleKv">7</span></label>
+    <label>p propuesto <input type="range" id="mleP" min="0.01" max="0.99" step="0.01" value="0.4"><span id="mlePv">0.40</span></label>
+    <label class="check"><input type="checkbox" id="mleLog"> ver log L(p)</label>
+  </div>
+  <div class="rejilla">
+    <div class="tarjeta"><h3>Moneda: L(p) = p<sup>k</sup> (1 − p)<sup>n − k</sup></h3><svg id="mleMoneda" viewBox="0 0 520 300"></svg></div>
+    <div class="tarjeta"><h3>AGM: log verosimilitud de la red al variar p<sub>A</sub></h3><svg id="mleAGM" viewBox="0 0 520 300"></svg></div>
+  </div>
+  <div class="tarjeta explicacion" id="mleExp"></div>
+</section>
+
+<!-- ============================================================ -->
+<section id="bigclam" class="panel">
+  <div class="intro">
+    <p>BigCLAM relaja la membresía binaria a una matriz F no negativa y maximiza
+    l(F) = Σ<sub>E</sub> log(1 − exp(−F<sub>u</sub>·F<sub>v</sub>)) − Σ<sub>no E</sub> F<sub>u</sub>·F<sub>v</sub>
+    actualizando una fila F<sub>u</sub> a la vez. Cada actualización tiene cuatro subpasos.</p>
+  </div>
+  <div class="controles">
+    <label>K <select id="bcK"><option>2</option><option selected>3</option><option>4</option></select></label>
+    <label>solape <input type="range" id="bcSolape" min="0" max="0.6" step="0.1" value="0.3"><span id="bcSolapev">0.3</span></label>
+    <label>semilla <input type="number" id="bcSemilla" value="3" min="1" max="999"></label>
+    <label>velocidad <input type="range" id="bcVel" min="50" max="1200" step="50" value="500"></label>
+  </div>
+  <div class="botones">
+    <button class="boton secundario" id="bcAtras">Atrás</button>
+    <button class="boton" id="bcSub">Siguiente subpaso</button>
+    <button class="boton" id="bcNodo">Siguiente nodo</button>
+    <button class="boton" id="bcIter">Iteración completa</button>
+    <button class="boton" id="bcPlay">Reproducir</button>
+    <button class="boton secundario" id="bcReset">Nuevo grafo</button>
+  </div>
+  <div class="progreso" id="bcProgreso"></div>
+  <div class="rejilla tres">
+    <div class="tarjeta"><h3>Red: torta = proporción de F<sub>u</sub></h3><svg id="bcRed" viewBox="0 0 440 380"></svg></div>
+    <div class="tarjeta"><h3>Matriz F (nodos por comunidades)</h3><div id="bcMatriz" class="matriz-caja"></div></div>
+    <div class="tarjeta">
+      <h3>Subpaso actual</h3>
+      <div id="bcExp" class="explicacion"></div>
+      <h3>Log verosimilitud por iteración</h3>
+      <svg id="bcCurva" viewBox="0 0 420 200"></svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section id="dirigido" class="panel">
+  <div class="intro">
+    <p>En una red dirigida cada nodo tiene dos membresías: F<sub>u</sub> (envía aristas a la comunidad) y
+    H<sub>v</sub> (recibe aristas de ella), con p(u → v) = 1 − exp(−F<sub>u</sub>·H<sub>v</sub>). Así aparece la
+    comunidad de dos modos: fans que siguen a famosos sin seguirse entre sí.</p>
+  </div>
+  <div class="botones">
+    <button class="boton" id="dPaso">Siguiente media iteración</button>
+    <button class="boton" id="dPlay">Reproducir</button>
+    <button class="boton secundario" id="dReset">Reiniciar</button>
+    <label class="check"><input type="checkbox" id="dComparar"> comparar con BigCLAM sin dirección</label>
+  </div>
+  <div class="rejilla">
+    <div class="tarjeta"><h3>Red dirigida</h3><svg id="dRed" viewBox="0 0 520 380"></svg></div>
+    <div class="tarjeta">
+      <h3>Membresías F (salida) y H (entrada)</h3>
+      <div id="dMatrices" class="matriz-caja"></div>
+      <div id="dExp" class="explicacion"></div>
+    </div>
+  </div>
+</section>
+<!-- ============================================================ -->
+<section id="recientes" class="panel">
+  <div class="intro">
+    <p>Tres propuestas que atacan debilidades concretas de AGM y BigCLAM. Elija una para recorrerla paso a paso.</p>
+  </div>
+  <div class="selector" role="tablist">
+    <button class="opcion activa" data-modo="ego">Ego-splitting (2017): solape desde particiones</button>
+    <button class="opcion" data-modo="bnmf">NMF bayesiana (2011): K automático</button>
+    <button class="opcion" data-modo="nocd">NOCD (2019): red neuronal de grafos</button>
+  </div>
+
+  <div class="modo activo" id="modo-ego">
+    <div class="botones">
+      <button class="boton secundario" id="egoAtras">Atrás</button>
+      <button class="boton" id="egoPaso">Siguiente paso</button>
+      <button class="boton" id="egoPlay">Reproducir</button>
+      <button class="boton secundario" id="egoReset">Reiniciar</button>
+    </div>
+    <div class="progreso" id="egoProgreso"></div>
+    <div class="rejilla">
+      <div class="tarjeta"><h3 id="egoTitulo1">Grafo original</h3><svg id="egoRed" viewBox="0 0 520 330"></svg></div>
+      <div class="tarjeta"><h3 id="egoTitulo2">Ego-net del nodo actual</h3><svg id="egoLocal" viewBox="0 0 520 330"></svg></div>
+    </div>
+    <div class="tarjeta explicacion" id="egoExp"></div>
+  </div>
+
+  <div class="modo" id="modo-bnmf">
+    <div class="controles">
+      <label>solape <input type="range" id="bnSolape" min="0" max="0.6" step="0.1" value="0"><span id="bnSolapev">0.0</span></label>
+      <label>K inicial <select id="bnK"><option>6</option><option selected>10</option><option>16</option></select></label>
+      <label>semilla <input type="number" id="bnSemilla" value="3" min="1" max="999"></label>
+    </div>
+    <div class="botones">
+      <button class="boton" id="bnPaso">10 iteraciones</button>
+      <button class="boton" id="bnPlay">Reproducir</button>
+      <button class="boton secundario" id="bnReset">Reiniciar</button>
+    </div>
+    <div class="rejilla tres">
+      <div class="tarjeta"><h3>Red: torta = membresía suave π</h3><svg id="bnRed" viewBox="0 0 440 380"></svg></div>
+      <div class="tarjeta"><h3>Peso de cada comunidad</h3><svg id="bnBarras" viewBox="0 0 420 300"></svg></div>
+      <div class="tarjeta"><h3>Comunidades vivas por iteración</h3><svg id="bnCurva" viewBox="0 0 420 220"></svg>
+        <div id="bnExp" class="explicacion"></div></div>
+    </div>
+  </div>
+
+  <div class="modo" id="modo-nocd">
+    <div class="controles">
+      <label>época <input type="range" id="ncEpoca" min="0" max="0" value="0" style="width:220px"><span id="ncEpocav">0</span></label>
+      <button class="boton" id="ncPlay">Reproducir entrenamiento</button>
+    </div>
+    <div class="tarjeta"><h3>Arquitectura</h3><svg id="ncArq" viewBox="0 0 1000 150"></svg></div>
+    <div class="rejilla tres" style="margin-top:14px">
+      <div class="tarjeta"><h3>Red: torta = F que produce la GCN</h3><svg id="ncRed" viewBox="0 0 440 380"></svg></div>
+      <div class="tarjeta"><h3>Pérdida (menos log verosimilitud)</h3><svg id="ncCurva" viewBox="0 0 420 260"></svg></div>
+      <div class="tarjeta"><div id="ncExp" class="explicacion"></div></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  Yang y Leskovec (ICDM 2012, WSDM 2013); Yang, McAuley y Leskovec (WSDM 2014); Epasto, Lattanzi y Paes Leme (KDD 2017);
+  Psorakis et al. (Phys. Rev. E 2011); Shchur y Günnemann (2019).
+  Implementación en JavaScript equivalente a implementacion/bigclam.py y coda.py.
+</footer>
+<script src="modelos.js"></script>
+<script src="datos_nocd.js"></script>
+<script src="app.js"></script>
+<script src="recientes.js"></script>
+</body>
+</html>
